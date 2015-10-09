@@ -8,12 +8,21 @@ body
 
 #main-info
 {
+		vertical-align: top;
+	border: solid black;
 	float: left;
 	width: 627px;
 }
 
+#main-table
+{
+	display: table;
+}
+
+
 #aside-info
 {
+		display: table-cell;
 	float: left;
 	width: 200px;
 	vertical-align: top;
@@ -22,16 +31,18 @@ body
 	
 #main-content
 {
+	display: table-cell;
 	height: 368px;
-	padding: 10px;
+	padding: 100px;
 	margin: 10px;
 }
 
 #navigation
 {
-		
+	vertical-align: top;
+	display: table-cell;
 	padding: 5px;
-	width: 886px;
+	width: 100px;
 	float: left;
 	height: 18px;
 }
