@@ -11,6 +11,7 @@ body
 {
 	vertical-align: top;
 	border: solid black;
+	background: #dddddd; 
 	float: left;
 	width: 627px;
 }
@@ -34,7 +35,7 @@ body
 	
 #main-content
 {
-	border: solid black;
+	
 	display: table-cell;
 	height: 368px;
 	padding: 20px;
@@ -46,6 +47,7 @@ body
 {
 	margin-right: 10px;
 	border: solid black;
+	background: #dddddd;
 	vertical-align: top;
 	display: table-cell;
 	padding: 10px;
@@ -79,6 +81,19 @@ body
 	float: left;
 	height: 18px;
 	font-size: 14px;
+	
+}
+
+#sub-navigation a{
+		font-size: 16px;
+
+    font-weight: bold;
+    color: white;
+    background-color: #9147DA;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
 }
 
 #aside-title-audio
