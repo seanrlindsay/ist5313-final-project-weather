@@ -14,6 +14,8 @@ body
 	background: #dddddd; 
 	float: left;
 	width: 627px;
+	height: 400px;
+	padding: 10px;
 }
 
 #main-table
