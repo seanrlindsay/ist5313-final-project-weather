@@ -34,9 +34,9 @@ body
 	display: table-cell;
 	float: left;
 	width: 200px;
-	vertical-align: top;
-	
+	vertical-align: bottom;
 	padding-left: 10px;
+	margin-left: 10px;
 }
 	
 
