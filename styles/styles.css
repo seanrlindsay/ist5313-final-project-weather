@@ -15,8 +15,20 @@ body
 	background: #dddddd; 
 	float: left;
 	width: 627px;
-	height: 356px;
+	height: 361px;
 	padding: 10px;
+}
+
+#main
+{
+	display: table-cell;
+	vertical-align: top;
+	
+	 
+	float: left;
+	width: 627px;
+	height: 356px;
+
 }
 
 #main-table
@@ -29,14 +41,15 @@ body
 
 #aside-info
 {
+
 	height:400px;
 	border: solid black;
 	display: table-cell;
 	float: left;
-	width: 200px;
-	vertical-align: bottom;
-	padding-left: 10px;
-	margin-left: 10px;
+	width: 240px;
+	vertical-align: top;
+	padding: 10px;
+	margin-left: 35px;
 }
 	
 
@@ -73,7 +86,7 @@ body
 
 #sub-navigation
 {
-	display: table-cell;
+
 	border: solid black;
 	background: #dddddd;	
 	padding: 5px;
@@ -81,7 +94,7 @@ body
 	float: left;
 	height: 18px;
 	font-size: 14px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	
 }
 
