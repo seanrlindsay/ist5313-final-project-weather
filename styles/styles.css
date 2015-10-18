@@ -56,6 +56,7 @@ body
 
 #navigation
 {
+	text-align: center;
 	margin-right: 10px;
 	border: solid black;
 	background: #dddddd;
@@ -70,7 +71,7 @@ body
 #sidelinks a:link
 {
 	font-size: 16px;
-	display: block;
+	
     font-weight: bold;
     color: white;
     background-color: #66CCFF;
@@ -82,6 +83,8 @@ body
 
 #sidelinks a{
 	color: white;
+	
+	
 }
 
 #sub-navigation
@@ -136,4 +139,8 @@ body
 audio
 {
 	width: 230px;
+}
+
+#quiz-link {
+	display: none;
 }

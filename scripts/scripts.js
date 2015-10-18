@@ -24,7 +24,14 @@ function startCourse()
             // set the "key" by giving it a value.  all values are strings!
             // course_started indicated that this OLM has started
     		sessionStorage.setItem( "course_started", "1" );
-    			
+    		sessionStorage.setItem( "topic1", "unvisited" );
+    		sessionStorage.setItem( "topic2", "unvisited" );
+    		sessionStorage.setItem( "topic3", "unvisited" );
+    		sessionStorage.setItem( "topic4", "unvisited" );
+    		sessionStorage.setItem( "topic5", "unvisited" );
+    		sessionStorage.setItem( "topic6", "unvisited" );
+    		sessionStorage.setItem( "topic7", "unvisited" );
+    		
 			// set the values you want to persist throughout the website here
         }
 	}
@@ -78,3 +85,62 @@ function finishCourse()
 	oScorm.save();
 	oScorm.quit();
 }
+
+function visitTopic1()
+{
+sessionStorage.setItem( "topic1", "visited");	
+checkVisits();
+}
+
+function visitTopic2()
+{
+sessionStorage.setItem( "topic2", "visited");
+checkVisits();
+}
+
+function visitTopic3()
+{
+sessionStorage.setItem( "topic3", "visited");	
+checkVisits();
+}
+
+function visitTopic4()
+{
+sessionStorage.setItem( "topic4", "visited");	
+checkVisits();
+}
+
+function visitTopic5()
+{
+sessionStorage.setItem( "topic5", "visited");	
+checkVisits();
+}
+
+function visitTopic6()
+{
+sessionStorage.setItem( "topic6", "visited");	
+checkVisits();
+}
+
+function visitTopic7()
+{
+sessionStorage.setItem( "topic7", "visited");	
+checkVisits();
+}
+function checkVisits()
+{
+	var value1 = sessionStorage.getItem( "topic1" );
+	var value2 = sessionStorage.getItem( "topic2" );
+	var value3 = sessionStorage.getItem( "topic3" );
+	var value4 = sessionStorage.getItem( "topic4" );
+	var value5 = sessionStorage.getItem( "topic5" );
+	var value6 = sessionStorage.getItem( "topic6" );
+	var value7 = sessionStorage.getItem( "topic7" );
+	if( value1 == "visited" && value2 == "visited" && value3 == "visited" && value4 == "visited" && value5 == "visited" && value6 == "visited" && value7 == "visited" )
+	{
+	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline"; 
+	}
+}
+
+
+
