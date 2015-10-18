@@ -31,6 +31,14 @@ function startCourse()
     		sessionStorage.setItem( "topic5", "unvisited" );
     		sessionStorage.setItem( "topic6", "unvisited" );
     		sessionStorage.setItem( "topic7", "unvisited" );
+    		sessionStorage.setItem( "topic8", "unvisited" );
+    		sessionStorage.setItem( "topic9", "unvisited" );
+    		sessionStorage.setItem( "topic10", "unvisited" );
+    		sessionStorage.setItem( "topic11", "unvisited" );
+    		sessionStorage.setItem( "topic12", "unvisited" );
+    		sessionStorage.setItem( "topic13", "unvisited" );
+    		
+    		
     		
 			// set the values you want to persist throughout the website here
         }
@@ -127,6 +135,48 @@ function visitTopic7()
 sessionStorage.setItem( "topic7", "visited");	
 checkVisits();
 }
+
+function visitTopic8()
+{
+sessionStorage.setItem( "topic8", "visited");	
+checkVisits();
+}
+
+function visitTopic9()
+{
+sessionStorage.setItem( "topic9", "visited");	
+checkVisits();
+}
+
+function visitTopic10()
+{
+sessionStorage.setItem( "topic10", "visited");	
+checkVisits();
+}
+
+function visitTopic11()
+{
+sessionStorage.setItem( "topic11", "visited");	
+checkVisits();
+}
+
+function visitTopic12()
+{
+sessionStorage.setItem( "topic12", "visited");	
+checkVisits();
+}
+
+function visitTopic13()
+{
+sessionStorage.setItem( "topic13", "visited");	
+checkVisits();
+}
+
+
+
+
+
+
 function checkVisits()
 {
 	var value1 = sessionStorage.getItem( "topic1" );
@@ -136,7 +186,30 @@ function checkVisits()
 	var value5 = sessionStorage.getItem( "topic5" );
 	var value6 = sessionStorage.getItem( "topic6" );
 	var value7 = sessionStorage.getItem( "topic7" );
-	if( value1 == "visited" && value2 == "visited" && value3 == "visited" && value4 == "visited" && value5 == "visited" && value6 == "visited" && value7 == "visited" )
+	var value8 = sessionStorage.getItem( "topic8" );
+	var value9 = sessionStorage.getItem( "topic9" );
+	var value10 = sessionStorage.getItem( "topic10" );
+	var value11 = sessionStorage.getItem( "topic11" );
+	var value12 = sessionStorage.getItem( "topic12" );
+	var value13 = sessionStorage.getItem( "topic13" );
+	var value9 = sessionStorage.getItem( "topic14" );
+	var value9 = sessionStorage.getItem( "topic15" );
+	var value9 = sessionStorage.getItem( "topic16" );
+	var value9 = sessionStorage.getItem( "topic17" );
+	var value9 = sessionStorage.getItem( "topic18" );
+	var value9 = sessionStorage.getItem( "topic19" );
+	var value9 = sessionStorage.getItem( "topic20" );
+	var value9 = sessionStorage.getItem( "topic21" );
+	var value9 = sessionStorage.getItem( "topic22" );
+	var value9 = sessionStorage.getItem( "topic23" );
+	var value9 = sessionStorage.getItem( "topic24" );
+	
+	
+	
+	
+	
+	if( value1 == "visited" && value2 == "visited" && value3 == "visited" && value4 == "visited" && value5 == "visited" && value6 == "visited" && value7 == "visited" && value8 == "visited" && value9 == "visited" && value10 == "visited"
+		&& value11 == "visited" && value12 == "visited" && value13 == "visited")
 	{
 	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline"; 
 	}
