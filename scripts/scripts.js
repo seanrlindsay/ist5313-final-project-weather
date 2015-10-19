@@ -37,8 +37,17 @@ function startCourse()
     		sessionStorage.setItem( "topic11", "unvisited" );
     		sessionStorage.setItem( "topic12", "unvisited" );
     		sessionStorage.setItem( "topic13", "unvisited" );
-    		
-    		
+    		sessionStorage.setItem( "topic14", "unvisited" );
+    		sessionStorage.setItem( "topic15", "unvisited" );
+    		sessionStorage.setItem( "topic16", "unvisited" );
+    		sessionStorage.setItem( "topic17", "unvisited" );
+    		sessionStorage.setItem( "topic18", "unvisited" );
+    		sessionStorage.setItem( "topic19", "unvisited" );
+    		sessionStorage.setItem( "topic20", "unvisited" );
+    		sessionStorage.setItem( "topic21", "unvisited" );
+    		sessionStorage.setItem( "topic22", "unvisited" );
+    		sessionStorage.setItem( "topic23", "unvisited" );
+    		sessionStorage.setItem( "topic24", "unvisited" );
     		
 			// set the values you want to persist throughout the website here
         }
@@ -172,6 +181,71 @@ sessionStorage.setItem( "topic13", "visited");
 checkVisits();
 }
 
+function visitTopic14()
+{
+sessionStorage.setItem( "topic14", "visited");	
+checkVisits();
+}
+
+function visitTopic15()
+{
+sessionStorage.setItem( "topic15", "visited");	
+checkVisits();
+}
+
+function visitTopic16()
+{
+sessionStorage.setItem( "topic16", "visited");	
+checkVisits();
+}
+
+function visitTopic17()
+{
+sessionStorage.setItem( "topic17", "visited");	
+checkVisits();
+}
+
+function visitTopic18()
+{
+sessionStorage.setItem( "topic18", "visited");	
+checkVisits();
+}
+
+function visitTopic19()
+{
+sessionStorage.setItem( "topic19", "visited");	
+checkVisits();
+}
+
+function visitTopic20()
+{
+sessionStorage.setItem( "topic20", "visited");	
+checkVisits();
+}
+
+function visitTopic21()
+{
+sessionStorage.setItem( "topic21", "visited");	
+checkVisits();
+}
+
+function visitTopic22()
+{
+sessionStorage.setItem( "topic22", "visited");	
+checkVisits();
+}
+
+function visitTopic23()
+{
+sessionStorage.setItem( "topic23", "visited");	
+checkVisits();
+}
+
+function visitTopic24()
+{
+sessionStorage.setItem( "topic24", "visited");	
+checkVisits();
+}
 
 
 
@@ -192,24 +266,25 @@ function checkVisits()
 	var value11 = sessionStorage.getItem( "topic11" );
 	var value12 = sessionStorage.getItem( "topic12" );
 	var value13 = sessionStorage.getItem( "topic13" );
-	var value9 = sessionStorage.getItem( "topic14" );
-	var value9 = sessionStorage.getItem( "topic15" );
-	var value9 = sessionStorage.getItem( "topic16" );
-	var value9 = sessionStorage.getItem( "topic17" );
-	var value9 = sessionStorage.getItem( "topic18" );
-	var value9 = sessionStorage.getItem( "topic19" );
-	var value9 = sessionStorage.getItem( "topic20" );
-	var value9 = sessionStorage.getItem( "topic21" );
-	var value9 = sessionStorage.getItem( "topic22" );
-	var value9 = sessionStorage.getItem( "topic23" );
-	var value9 = sessionStorage.getItem( "topic24" );
+	var value14 = sessionStorage.getItem( "topic14" );
+	var value15 = sessionStorage.getItem( "topic15" );
+	var value16 = sessionStorage.getItem( "topic16" );
+	var value17 = sessionStorage.getItem( "topic17" );
+	var value18 = sessionStorage.getItem( "topic18" );
+	var value19 = sessionStorage.getItem( "topic19" );
+	var value20 = sessionStorage.getItem( "topic20" );
+	var value21 = sessionStorage.getItem( "topic21" );
+	var value22 = sessionStorage.getItem( "topic22" );
+	var value23 = sessionStorage.getItem( "topic23" );
+	var value24 = sessionStorage.getItem( "topic24" );
 	
 	
 	
 	
 	
 	if( value1 == "visited" && value2 == "visited" && value3 == "visited" && value4 == "visited" && value5 == "visited" && value6 == "visited" && value7 == "visited" && value8 == "visited" && value9 == "visited" && value10 == "visited"
-		&& value11 == "visited" && value12 == "visited" && value13 == "visited")
+		&& value11 == "visited" && value12 == "visited" && value13 == "visited" && value14 == "visited" && value15 == "visited" && value16 == "visited" && value17 == "visited" && value18 == "visited" && value19 == "visited" && value20 == "visited"
+			&& value21 == "visited" && value22 == "visited" && value23 == "visited" && value24 == "visited")
 	{
 	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline"; 
 	}
