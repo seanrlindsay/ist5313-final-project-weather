@@ -4,7 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>Page title here</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
-		
+		<script language="javascript" src="scripts/quiz.js"></script>
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
 	<body onload="javascript:parent.visitTopic16();">
@@ -43,25 +43,39 @@
 					<header>
 						<h1>Winter Storms - Mini-Quiz</h1>
 					</header>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-mauris. Pellentesque a tristique eros. Pellentesque et nibh dui.<br><br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-mauris. Pellentesque a tristique eros. Pellentesque et nibh dui. <br><br> 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-mauris. Pellentesque a tristique eros. Pellentesque et nibh dui. <br><br> 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
- <br><br> 					<!--- put your content here --->
+<form id="quiz1" name="quiz1" action="javascript:processQuiz(); ">
+					<h1>NBA Championship Quiz</h1>
+						<p>Answer every question and click Submit Answers button.</p>
+						<p><label for="question1">Which Western Conference team has the most titles?</label>
+						<br/>
+						<input type="radio" id="question1" name="question1" value="0">
+						Las Angeles Lakers</input><br/>
+						<input type="radio" id="question1" name="question1" value="1">
+						San Antonio Spurs</input><br/>
+						<input type="radio" id="question1" name="question1" value="2">
+						Dallas Mavericks</input></p>
+
+
+						<p><label for="question2">How many titles does the Eastern Conference have?</label>
+						<br/>
+						<input type="radio" id="question2" name="question2" value="0">
+						24</input><br/>
+						<input type="radio" id="question2" name="question2" value="1">
+						21</input><br/>
+						<input type="radio" id="question2" name="question2" value="2">
+						22</input></p>
+
+		
+					<p>	<label for="question3">What Team is not in the Western Conference?</label>
+						<br/>
+						<input type="radio" id="question3" name="question3" value="0">
+						Houston Rockets</input><br/>
+						<input type="radio" id="question3" name="question3" value="1">
+						Milwaukee Bucks</input><br/>
+						<input type="radio" id="question3" name="question3" value="2">
+						Miami Heat</input></p>
+						<input type="submit" value="Submit Answers"/>
+				</form>					<!--- put your content here --->
 				</article>
 			</div>
 			</div>
