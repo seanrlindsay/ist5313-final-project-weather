@@ -1,6 +1,6 @@
 body
 {
-	
+	background: #a0a0a0;
 	margin: 0px;
 	padding: 0px;
 	font-size: 12px;
@@ -144,3 +144,4 @@ audio
 #quiz-link {
 	display: none;
 }
+
