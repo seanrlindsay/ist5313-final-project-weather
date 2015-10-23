@@ -17,6 +17,7 @@ body
 	width: 627px;
 	height: 361px;
 	padding: 10px;
+	overflow: auto;
 }
 
 #main
@@ -46,10 +47,11 @@ body
 	border: solid black;
 	display: table-cell;
 	float: left;
-	width: 240px;
+	width: 250px;
 	vertical-align: top;
 	padding: 10px;
 	margin-left: 35px;
+	overflow: auto;
 }
 	
 
@@ -115,7 +117,7 @@ body
 #aside-title-audio
 {
 	background: #666666;
-	width: 233px;
+	width: 225px;
 	font-size: 14px;
 	font-weight: bold;
 	color: white;
@@ -131,8 +133,8 @@ body
 {
 	color: green;
 	font-size: 12px;
-	overflow: auto;
-	height: 321px;
+	
+	height: 300px;
 	width: 233px;
 }
 
@@ -143,5 +145,9 @@ audio
 
 #quiz-link {
 	display: none;
+}
+
+#banner{
+	margin-left: 70px;
 }
 
