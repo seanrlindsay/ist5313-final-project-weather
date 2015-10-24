@@ -15,7 +15,7 @@ body
 	border: solid black;
 	background: #dddddd; 
 	float: left;
-	width: 520px;
+	width: 525px;
 	height: 361px;
 	padding: 10px;
 	overflow: auto;
@@ -74,7 +74,7 @@ body
 
 #sidelinks a:link
 {
-	font-size: 16px;
+	font-size: 13px;
 	
     font-weight: bold;
     color: white;
@@ -97,7 +97,7 @@ body
 	border: solid black;
 	background: #dddddd;	
 	padding: 5px;
-	width: 530px;
+	width: 535px;
 	float: left;
 	height: 18px;
 	font-size: 14px;
@@ -124,6 +124,7 @@ body
 	font-weight: bold;
 	color: white;
 	padding: 5px;
+	border: solid black;
 }
 
 #content-frame
@@ -137,12 +138,13 @@ body
 	font-size: 12px;
 	
 	height: 200px;
-	width: 130px;
+	width: 150px;
 }
 
 audio
 {
 	width: 130px;
+	
 }
 
 #quiz-link {
