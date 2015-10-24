@@ -1,5 +1,6 @@
 body
 {
+	 
 	background: #a0a0a0;
 	margin: 0px;
 	padding: 0px;
@@ -14,7 +15,7 @@ body
 	border: solid black;
 	background: #dddddd; 
 	float: left;
-	width: 627px;
+	width: 520px;
 	height: 361px;
 	padding: 10px;
 	overflow: auto;
@@ -25,9 +26,9 @@ body
 	display: table-cell;
 	vertical-align: top;
 	
-	 
+	
 	float: left;
-	width: 627px;
+	width: 555px;
 	height: 356px;
 
 }
@@ -43,14 +44,14 @@ body
 #aside-info
 {
 	background: #dddddd;
-	height:400px;
+	height:410px;
 	border: solid black;
-	display: table-cell;
-	float: left;
-	width: 250px;
 	vertical-align: top;
-	padding: 10px;
-	margin-left: 35px;
+	
+	width: 180px;
+	
+	padding: 5px;
+	margin-left: 3px;
 	overflow: auto;
 }
 	
@@ -58,14 +59,15 @@ body
 
 #navigation
 {
+	margin-left: 3px;
 	text-align: center;
-	margin-right: 10px;
+	margin-right: 3px;
 	border: solid black;
 	background: #dddddd;
 	vertical-align: top;
 	display: table-cell;
 	padding: 10px;
-	width: 125px;
+	width: 100px;
 	float: left;
 	height: 400px;
 }
@@ -95,7 +97,7 @@ body
 	border: solid black;
 	background: #dddddd;	
 	padding: 5px;
-	width: 637px;
+	width: 530px;
 	float: left;
 	height: 18px;
 	font-size: 14px;
@@ -117,7 +119,7 @@ body
 #aside-title-audio
 {
 	background: #666666;
-	width: 225px;
+	width: 140px;
 	font-size: 14px;
 	font-weight: bold;
 	color: white;
@@ -134,13 +136,13 @@ body
 	color: green;
 	font-size: 12px;
 	
-	height: 300px;
-	width: 233px;
+	height: 200px;
+	width: 130px;
 }
 
 audio
 {
-	width: 230px;
+	width: 130px;
 }
 
 #quiz-link {
@@ -148,6 +150,6 @@ audio
 }
 
 #banner{
-	margin-left: 70px;
+	
 }
 
