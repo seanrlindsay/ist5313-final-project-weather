@@ -4,7 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>Page title here</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
-		
+		<script language="javascript" src="scripts/quiz.js"></script>
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
 	<body>
@@ -29,28 +29,123 @@
 		<div id="main">
 			<div id="main-info">
 				<article>
+				
 					<header>
 						<h1>Test<!--- put your content title here ---></h1>
 					</header>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-							lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-							Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-							Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-							mauris. Pellentesque a tristique eros. Pellentesque et nibh dui.<br><br>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-							lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-							Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-							Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-							mauris. Pellentesque a tristique eros. Pellentesque et nibh dui. <br><br> 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-							lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-							Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-							Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-							mauris. Pellentesque a tristique eros. Pellentesque et nibh dui. <br><br> 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-							lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-							Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-							 <br><br> 					<!--- put your content here --->
+					<form id="quiz6" name="quiz6" action="javascript:processQuiz6(); ">
+					<p>Answer every question and click Submit Answers button.</p>
+						<p><label for="question1">Which of the following may accompany extreme heat?</label>
+						<br/>
+						<input type="radio" id="question1" name="question1" value="0">
+						A. Rainbows</input><br/>
+						<input type="radio" id="question1" name="question1" value="1">
+						B. High humidity</input><br/>
+						<input type="radio" id="question1" name="question1" value="2">
+						C. Loud noises</input><br>
+						<input type="radio" id="question1" name="question1" value="3">
+						D. None of the above</input></p>
+
+						<p><label for="question2">Low rainfall or no rain for years causes which of the following</label>
+						<br/>
+						<input type="radio" id="question2" name="question2" value="0">
+						A. Drought</input><br/>
+						<input type="radio" id="question2" name="question2" value="1">
+						B. Thunderstorms</input><br/>
+						<input type="radio" id="question2" name="question2" value="2">
+						C. Thunderstorms</input><br>
+						<input type="radio" id="question2" name="question2" value="3">
+						B. None of the above</input><br/></p>
+
+		
+					<p>	<label for="question3">Extreme heat or drought can cause</label>
+						<br/>
+						<input type="radio" id="question3" name="question3" value="0">
+						A. Fires</input><br/>
+						<input type="radio" id="question3" name="question3" value="1">
+						B. Water shortage</input><br/>
+						<input type="radio" id="question3" name="question3" value="2">
+						C. Heat stroke for animals and people</input><br>
+						<input type="radio" id="question3" name="question3" value="3">
+						D. All of the above</input><br/></p>
+						
+						<p>	<label for="question4">An important survival tip to remember during extreme heat and drought</label>
+						<br/>
+						<input type="radio" id="question4" name="question4" value="0">
+						A. Provide shade and water for animals</input><br/>
+						<input type="radio" id="question4" name="question4" value="1">
+						B. Run your favorite marathon</input><br/>
+						<input type="radio" id="question4" name="question4" value="2">
+						C. Wear your favorite winter coat</input><br>
+						<input type="radio" id="question4" name="question4" value="3">
+						D. None of the above</input><br/></p>
+						
+						<p>	<label for="question5">An important survival tip to remember during extreme heat and drought</label>
+						<br/>
+						<input type="radio" id="question5" name="question5" value="0">
+						A. Provide shade and water for animals</input><br/>
+						<input type="radio" id="question5" name="question5" value="1">
+						B. Run your favorite marathon</input><br/>
+						<input type="radio" id="question5" name="question5" value="2">
+						C. Wear your favorite winter coat</input><br>
+						<input type="radio" id="question5" name="question5" value="3">
+						D. None of the above</input><br/></p>
+						
+						<p>	<label for="question6">An important survival tip to remember during extreme heat and drought</label>
+						<br/>
+						<input type="radio" id="question6" name="question6" value="0">
+						A. Provide shade and water for animals</input><br/>
+						<input type="radio" id="question6" name="question6" value="1">
+						B. Run your favorite marathon</input><br/>
+						<input type="radio" id="question6" name="question6" value="2">
+						C. Wear your favorite winter coat</input><br>
+						<input type="radio" id="question6" name="question6" value="3">
+						D. None of the above</input><br/></p>
+						
+						<p>	<label for="question7">An important survival tip to remember during extreme heat and drought</label>
+						<br/>
+						<input type="radio" id="question7" name="question7" value="0">
+						A. Provide shade and water for animals</input><br/>
+						<input type="radio" id="question7" name="question7" value="1">
+						B. Run your favorite marathon</input><br/>
+						<input type="radio" id="question7" name="question7" value="2">
+						C. Wear your favorite winter coat</input><br>
+						<input type="radio" id="question7" name="question7" value="3">
+						D. None of the above</input><br/></p>
+						
+						<p>	<label for="question8">An important survival tip to remember during extreme heat and drought</label>
+						<br/>
+						<input type="radio" id="question8" name="question8" value="0">
+						A. Provide shade and water for animals</input><br/>
+						<input type="radio" id="question8" name="question8" value="1">
+						B. Run your favorite marathon</input><br/>
+						<input type="radio" id="question8" name="question8" value="2">
+						C. Wear your favorite winter coat</input><br>
+						<input type="radio" id="question8" name="question8" value="3">
+						D. None of the above</input><br/></p>
+						
+						<p>	<label for="question9">An important survival tip to remember during extreme heat and drought</label>
+						<br/>
+						<input type="radio" id="question9" name="question9" value="0">
+						A. Provide shade and water for animals</input><br/>
+						<input type="radio" id="question9" name="question9" value="1">
+						B. Run your favorite marathon</input><br/>
+						<input type="radio" id="question9" name="question9" value="2">
+						C. Wear your favorite winter coat</input><br>
+						<input type="radio" id="question9" name="question9" value="3">
+						D. None of the above</input><br/></p>
+						
+						<p>	<label for="question10">An important survival tip to remember during extreme heat and drought</label>
+						<br/>
+						<input type="radio" id="question10" name="question10" value="0">
+						A. Provide shade and water for animals</input><br/>
+						<input type="radio" id="question10" name="question10" value="1">
+						B. Run your favorite marathon</input><br/>
+						<input type="radio" id="question10" name="question10" value="2">
+						C. Wear your favorite winter coat</input><br>
+						<input type="radio" id="question10" name="question10" value="3">
+						D. None of the above</input><br/></p>
+						<input type="submit" value="Submit Answers"/>				<!--- put your content here --->
 				</article>
 			</div>
 			</div>

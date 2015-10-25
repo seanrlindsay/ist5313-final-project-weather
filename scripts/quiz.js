@@ -142,3 +142,68 @@ function processQuiz5()
 	}
 alert ("You got "+ score + " correct!");
 }
+
+function processQuiz6()
+{
+	var q1 = document.forms.quiz6.question1;
+	var score = 0;
+	if( q1[ 0 ].checked )
+	{
+	 score=score+1;
+	}
+	
+	var q2 = document.forms.quiz6.question2;
+	
+	if( q2[ 1 ].checked ){
+		score=score+1;
+	}
+	
+    var q3 = document.forms.quiz6.question3;
+	
+	if( q3[ 0 ].checked ){
+		score=score+1;
+	}
+	
+    var q4 = document.forms.quiz6.question4;
+	
+	if( q4[ 0 ].checked ){
+		score=score+1;
+	}
+	
+var q5 = document.forms.quiz6.question5;
+	
+	if( q5[ 3 ].checked ){
+		score=score+1;
+	}
+	
+var q6 = document.forms.quiz6.question6;
+	
+	if( q6[ 3 ].checked ){
+		score=score+1;
+	}
+	
+var q7 = document.forms.quiz6.question7;
+	
+	if( q7[ 3 ].checked ){
+		score=score+1;
+	}
+	
+var q8 = document.forms.quiz6.question8;
+	
+	if( q8[ 0 ].checked ){
+		score=score+1;
+	}
+	
+var q9 = document.forms.quiz6.question9;
+	
+	if( q9[ 0 ].checked ){
+		score=score+1;
+	}
+	
+var q10 = document.forms.quiz6.question10;
+	
+	if( q10[ 3 ].checked ){
+		score=score+1;
+	}
+alert ("You got "+ score + " correct!");
+}
