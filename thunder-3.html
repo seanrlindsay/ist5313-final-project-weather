@@ -4,6 +4,8 @@
 		<meta charset="utf-8"/>
 		<title>Page title here</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<link href="styles/hot-spots-styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/hot-spots.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -43,25 +45,41 @@
 					<header>
 						<h1>Severe Thunderstorm - Interactive<!--- put your content title here ---></h1>
 					</header>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-mauris. Pellentesque a tristique eros. Pellentesque et nibh dui.<br><br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-mauris. Pellentesque a tristique eros. Pellentesque et nibh dui. <br><br> 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-mauris. Pellentesque a tristique eros. Pellentesque et nibh dui. <br><br> 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
- <br><br> 					<!--- put your content here --->
+<section>
+            	<p>Hover your mouse over each item to learn its French equivalent.</p>
+				
+				<div id="hotspots">
+					<div class="column">
+					 	<div id="hs1" class="hotspot" 
+				     		onmouseover="javascript:showText( 1 )"
+				     		onmouseout="javascript:hideOutput()"><p>cat</p></div> 
+					</div>
+					<div class="column">
+				     	<div id="hs2" class="hotspot" 
+				     		onmouseover="javascript:showText( 2 )"
+				     		onmouseout="javascript:hideOutput()"><p>horse</p></div>  
+					</div>             <br>
+					<div class="column">        
+				 		<div id="hs3" class="hotspot"
+				     		onmouseover="javascript:showText( 3 )"
+				     		onmouseout="javascript:hideOutput()"><p>dog</p></div> 
+					</div>
+					<div class="column">
+					 	<div id="hs4" class="hotspot" 
+				     		onmouseover="javascript:showText( 4 )"
+				     		onmouseout="javascript:hideOutput()"><p>bird</p></div>
+					</div>
+				</div>
+				    
+            </section>
+            <section>
+				<div id="output">
+					<div id="output-box">
+						<p id="output-text">asdf</p>
+					</div>
+				</div>
+            </section>
+			<!--- put your content here --->
 				</article>
 			</div>
 			</div>

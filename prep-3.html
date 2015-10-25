@@ -4,6 +4,8 @@
 		<meta charset="utf-8"/>
 		<title>Page title here</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<link href="styles/drag-and-drop-styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/drag-and-drop.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -42,25 +44,50 @@
 					<header>
 						<h1>Preparedness - Interactive</h1>
 					</header>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-mauris. Pellentesque a tristique eros. Pellentesque et nibh dui.<br><br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-mauris. Pellentesque a tristique eros. Pellentesque et nibh dui. <br><br> 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
-Maecenas lacinia risus ac risus dapibus, a imperdiet dui tincidunt. Pellentesque ut commodo arcu, a placerat 
-mauris. Pellentesque a tristique eros. Pellentesque et nibh dui. <br><br> 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus consequat nulla commodo posuere nec nec 
-lectus. Proin vitae blandit elit. Quisque at metus dolor. Phasellus volutpat tortor eu imperdiet sagittis. 
-Donec feugiat, mauris sit amet imperdiet elementum, justo augue facilisis lectus, nec pretium tortor mi at elit. 
- <br><br> 					<!--- put your content here --->
+<section>
+         		<form name="dd1" onsubmit="javascript:processForm(); return false;">  
+				<p>Match each English word with its French equivalent.</p>
+				
+				<div class="column">
+						<h3>Draggers</h3>
+					 	<div id="d1" value="3" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>cat</p></div><br/>  
+				     	<div id="d2" value="2" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>horse</p></div><br/>                        
+				 		<div id="d3" value="0" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>dog</p></div><br/>  
+					 	<div id="d4" value="1" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>bird</p></div><br/>  
+				</div>
+				
+				    
+				<div class="column">
+						<h3>Dragger Bays</h3>
+				     	<div id="db1" value="0" class="draggerbay" 
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>le chien</p></div><br/>                        
+				 		<div id="db2" value="1" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>l'oiseau</p></div><br/>  
+					 	<div id="db3" value="2" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>le cheval </p></div><br/> 
+					 	<div id="db4" value="3" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>le chat</p></div><br/>  
+				</div>
+				<p id="response">&nbsp;</p>
+				<input type="submit" name="button" value="Submit Your Answer"/><br/>
+				</form>
+            </section>				<!--- put your content here --->
 				</article>
 			</div>
 			</div>
