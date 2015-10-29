@@ -160,3 +160,15 @@ audio
 	margin-left: 0px;
 }
 
+#intro-final
+{
+	display: table-cell;
+	vertical-align: top;
+	border: solid black;
+	background: #dddddd; 
+	float: left;
+	width: 525px;
+	height: 400px;
+	padding: 10px;
+	overflow: auto;
+}
