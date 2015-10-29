@@ -1,6 +1,6 @@
 body
 {
-	 
+	
 	background: #a0a0a0;
 	margin: 0px;
 	padding: 0px;
@@ -25,10 +25,10 @@ body
 {
 	display: table-cell;
 	vertical-align: top;
-	
-	
+	margin-left: 3px;
+	margin-right: 6px;
 	float: left;
-	width: 555px;
+	
 	height: 356px;
 
 }
@@ -48,7 +48,7 @@ body
 	border: solid black;
 	vertical-align: top;
 	
-	width: 180px;
+	width: 173px;
 	
 	padding: 5px;
 	margin-left: 3px;
@@ -129,6 +129,7 @@ body
 
 #content-frame
 {
+	
 	border: none;
 }
 	
@@ -155,8 +156,7 @@ audio
 	
 }
 #all {
-	width:900;
 	
-	
+	margin-left: 0px;
 }
 
