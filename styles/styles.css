@@ -48,7 +48,7 @@ body
 	border: solid black;
 	vertical-align: top;
 	
-	width: 173px;
+	width: 168px;
 	
 	padding: 5px;
 	margin-left: 3px;
@@ -144,8 +144,9 @@ body
 
 audio
 {
-	width: 130px;
-	
+	height: 20px;
+	width: 155px;
+	margin-left: 0px;
 }
 
 #quiz-link {
