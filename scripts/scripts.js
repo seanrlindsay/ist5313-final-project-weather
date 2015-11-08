@@ -48,7 +48,7 @@ function startCourse()
     		sessionStorage.setItem( "topic22", "unvisited" );
     		sessionStorage.setItem( "topic23", "unvisited" );
     		sessionStorage.setItem( "topic24", "unvisited" );
-    		
+    		sessionStorage.setItem( "topic25", "unvisited" );
 			// set the values you want to persist throughout the website here
         }
 	}
@@ -247,7 +247,11 @@ sessionStorage.setItem( "topic24", "visited");
 checkVisits();
 }
 
-
+function visitTopic25()
+{
+sessionStorage.setItem( "topic25", "visited");	
+checkVisits();
+}
 
 
 
@@ -277,16 +281,21 @@ function checkVisits()
 	var value22 = sessionStorage.getItem( "topic22" );
 	var value23 = sessionStorage.getItem( "topic23" );
 	var value24 = sessionStorage.getItem( "topic24" );
-	
+	var value25 = sessionStorage.getItem( "topic25" );
 	
 	
 	
 	
 	if( value1 == "visited" && value2 == "visited" && value3 == "visited" && value4 == "visited" && value5 == "visited" && value6 == "visited" && value7 == "visited" && value8 == "visited" && value9 == "visited" && value10 == "visited"
 		&& value11 == "visited" && value12 == "visited" && value13 == "visited" && value14 == "visited" && value15 == "visited" && value16 == "visited" && value17 == "visited" && value18 == "visited" && value19 == "visited" && value20 == "visited"
-			&& value21 == "visited" && value22 == "visited" && value23 == "visited" && value24 == "visited")
+			&& value21 == "visited" && value22 == "visited" && value23 == "visited" && value24 == "visited" && value25 == "visited")
 	{
-	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline"; 
+	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline"; 	
+	
+	if(!localStorage["alertdisplayed"]) {
+	    alert("The Final Test is now available!")
+	    localStorage["alertdisplayed"] = true
+	}
 	}
 }
 

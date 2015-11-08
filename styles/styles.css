@@ -15,7 +15,7 @@ body
 	border: solid black;
 	background: #dddddd; 
 	float: left;
-	width: 525px;
+	width: 540px;
 	height: 361px;
 	padding: 10px;
 	overflow: auto;
@@ -59,7 +59,7 @@ body
 
 #navigation
 {
-	margin-left: 3px;
+	margin-left: 6px;
 	text-align: center;
 	margin-right: 3px;
 	border: solid black;
@@ -97,7 +97,7 @@ body
 	border: solid black;
 	background: #dddddd;	
 	padding: 5px;
-	width: 535px;
+	width: 550px;
 	float: left;
 	height: 18px;
 	font-size: 14px;
@@ -168,7 +168,7 @@ audio
 	border: solid black;
 	background: #dddddd; 
 	float: left;
-	width: 525px;
+	width: 540px;
 	height: 400px;
 	padding: 10px;
 	overflow: auto;
