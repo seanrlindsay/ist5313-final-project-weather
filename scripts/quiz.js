@@ -205,9 +205,17 @@ var q10 = document.forms.quiz6.question10;
 	if( q10[ 3 ].checked ){
 		score=score+1;
 	}
-	alert ("You got "+ score + " correct!");
+
+if(score >=7 )
+	{
+	alert ("You got "+ score + " correct! Congratulations, you passed!");
 	score = score * 10;
 	parent.reportScores( score );
+	}
+else
+	{
+	alert ("You got "+score+" correct! You need " + 7-score +" more correct to pass!");
+	}
 	
 	
 }
