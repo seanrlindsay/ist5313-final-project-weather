@@ -216,6 +216,5 @@ else
 	{
 	alert ("You got "+score+" correct! You need " + 7-score +" more correct to pass!");
 	}
-	
-	
+		
 }
