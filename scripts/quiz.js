@@ -214,7 +214,7 @@ if(score >=7 )
 	}
 else
 	{
-	alert ("You got "+score+" correct! You need " + 7-score +" more correct to pass!");
+	alert ("You got "+score+" correct! You need " + 7-score +" more correct to pass! Retry it!");
 	}
 		
 }
