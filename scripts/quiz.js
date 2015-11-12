@@ -205,7 +205,9 @@ var q10 = document.forms.quiz6.question10;
 	if( q10[ 3 ].checked ){
 		score=score+1;
 	}
+	alert ("You got "+ score + " correct!");
+	score = score * 10;
 	parent.reportScores( score );
 	
-	alert ("You got "+ score + " correct!");
+	
 }

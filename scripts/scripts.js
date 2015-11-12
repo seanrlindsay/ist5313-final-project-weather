@@ -91,8 +91,20 @@ function initializeSCORM()
 
 // This function reports the score from the assessment to the LMS
 // This should only be called when the user submits the answers to the quiz
-function reportScores()
+function reportScores(score)
 {	
+	oScorm.set("cmi.score.raw", score );
+	oScorm.set("cmi.score.min", 0 );
+	oScorm.set("cmi.score.max", 100 );
+	oScorm.set("cmi.score.scaled", score / 100 );
+	
+	if(score>=70)
+		{
+			oScorm.set( "cmi.success_status", "passed" );
+			oScorm.set( "cmi.completion_status", "completed" );
+			oScorm.set( "cmi.lesson_status", "passed" );
+		}			
+	
 	oScorm.save();
 }
 
