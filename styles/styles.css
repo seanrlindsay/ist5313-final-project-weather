@@ -80,7 +80,7 @@ body
     font-weight: bold;
     color: white;
     background-color: #66CCFF;
-    width: 120px;
+    width: 90px;
     text-align: center;
     padding: 4px;
     text-decoration: none;
@@ -157,8 +157,8 @@ audio
 #banner{
 	
 }
-#all {
-	
+#block {
+	display: block;
 	
 }
 
