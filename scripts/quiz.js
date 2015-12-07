@@ -24,7 +24,7 @@ function processQuiz()
 	if( q4[ 3 ].checked ){
 		score=score+1;
 	}
-alert ("You got "+ score + " correct!");
+alert ("You got "+ score  + " correct!");
 }
 
 function processQuiz2()
