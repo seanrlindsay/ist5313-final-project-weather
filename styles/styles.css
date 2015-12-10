@@ -154,6 +154,10 @@ audio
 	display: none;
 }
 
+#cert-link {
+	display: none;
+}
+
 #banner{
 	
 }

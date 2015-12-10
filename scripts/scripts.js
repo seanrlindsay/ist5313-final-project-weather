@@ -107,6 +107,7 @@ function reportScores(score)
 	
 	if(score>=70)
 		{
+			document.getElementById( "content-frame" ).contentWindow.document.getElementById( "cert-link" ).style.display = "inline";
 			oScorm.set( "cmi.success_status", "passed" );
 			oScorm.set( "cmi.completion_status", "completed" );
 			oScorm.set( "cmi.lesson_status", "passed" );
