@@ -103,7 +103,13 @@ function reportScores(score)
 			oScorm.set( "cmi.success_status", "passed" );
 			oScorm.set( "cmi.completion_status", "completed" );
 			oScorm.set( "cmi.lesson_status", "passed" );
-		}			
+		}
+	else
+		{
+			oScorm.set( "cmi.success_status", "failed" );
+			oScorm.set( "cmi.completion_status", "incomplete" );
+			oScorm.set( "cmi.lesson_status", "incomplete" );
+		}
 	
 	oScorm.save();
 }

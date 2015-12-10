@@ -215,6 +215,8 @@ if(score >=7 )
 else
 	{
 	alert ("You got "+ score +" correct! You need " + 7 - score +" more correct to pass! Retry it!");
+	score = score * 10;
+	parent.reportScores( score );
 	}
 		
 }
